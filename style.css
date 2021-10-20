@@ -30,6 +30,113 @@ html { box-sizing: border-box; }
 
 
 body {
-	margin: 0;
+  font-size: 18px;
+  font-family: 'Lora', serif;
+  margin: 0;
 }
 
+/*styly pro hlavičku*/
+.hlavicka {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.horni-lista {
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo-cukrarny {
+  width: 170px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  
+}
+
+.tlacitko-menu {
+  color: #242424;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.tlacitko-menu:hover {
+  color: white;
+  background-color:#f195b2;
+  border-radius: 20px;
+}
+
+/*styly pro sekci hero*/
+.hero {
+  background-image: url(images/cupcake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.hero-obsah {
+  max-width: 1100px;
+  color: #ffff;
+  border: 2px solid red;
+  padding-right: 40%;
+  vertical-align: middle;
+  margin: 0 auto;
+
+}
+
+.hero h1 {
+  font-size: 52px;
+  margin-top: 0;
+  line-height: 1.25;
+  font-family: 'Playfair Display', serif;
+}
+
+.hero p {
+  font-size: 24px;
+  font-style: italic;
+}
+
+/*styly pro sekci vitejte v nasi cukrarne*/
+.vitejte-v-nasi-cukrarne {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.obsah-vitejte {
+  max-width: 1100px;
+  display: flex;
+  margin: 0 auto;
+  
+}
+
+h2 {
+  font-size: 36px;
+  color: #3e606b;
+}
+
+.vitejte-levy-sloupec p {
+  padding-bottom: 20px;
+}
+
+.tlacitko-nase-vyrobky {
+  color: #ffff;
+  background-color:#f195b2;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 10px 15px;
+}
+
+.tlacitko-nase-vyrobky:hover {
+  color: #ffff;
+  background-color:#d2567d;
+}
+
+.foto-cukrarka {
+  border-radius: 10px;
+}
