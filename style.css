@@ -33,6 +33,8 @@ body {
   font-size: 18px;
   font-family: 'Lora', serif;
   margin: 0;
+  line-height: 1.5;
+  color: #242424;
 }
 
 /*styly pro hlavičku*/
@@ -53,10 +55,10 @@ body {
   width: 170px;
 }
 
+/*styly pro tlacitka menu v hlavicce*/
 .menu {
   display: flex;
-  list-style: none;
-  
+  list-style: none;  
 }
 
 .tlacitko-menu {
@@ -66,7 +68,7 @@ body {
 }
 
 .tlacitko-menu:hover {
-  color: white;
+  color: #ffff;
   background-color:#f195b2;
   border-radius: 20px;
 }
@@ -83,11 +85,8 @@ body {
 .hero-obsah {
   max-width: 1100px;
   color: #ffff;
-  border: 2px solid red;
   padding-right: 40%;
-  vertical-align: middle;
   margin: 0 auto;
-
 }
 
 .hero h1 {
@@ -118,6 +117,7 @@ body {
 h2 {
   font-size: 36px;
   color: #3e606b;
+  line-height: 1.25;
 }
 
 .vitejte-levy-sloupec p {
@@ -138,5 +138,52 @@ h2 {
 }
 
 .foto-cukrarka {
-  border-radius: 10px;
+  border-radius: 5px;
+}
+
+/*styly pro sekci dnesni nabidka*/
+.dnesni-nabidka {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f0f0f0;
+}
+
+.obsah-dnesni-nabidka {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.nadpis-dnesni-nabidka {
+  border: 4px dotted deeppink;
+  margin-top: 0;
+}
+
+.flexbox-produkty {
+  display: flex;
+  justify-content: space-between
+  
+}
+
+.produkt {
+  justify-content: space-between;
+  background-color: #ffff;
+  border-radius: 5px;
+  width: 23%;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3)
+}
+
+.produkt h3 {
+  color: #3e606b;
+  font-size: 18px;
+  padding: 0 20px;
+}
+
+.produkt p {
+  padding: 0 20px;
+}
+
+.dorty {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
 }
