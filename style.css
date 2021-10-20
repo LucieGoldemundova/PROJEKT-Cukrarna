@@ -28,7 +28,6 @@ html { box-sizing: border-box; }
 	#303339		tmavé pozadí patičky
 */
 
-
 body {
   font-size: 18px;
   font-family: 'Lora', serif;
@@ -39,8 +38,7 @@ body {
 
 /*styly pro hlavičku*/
 .hlavicka {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 0;
 }
 
 .horni-lista {
@@ -58,7 +56,7 @@ body {
 /*styly pro tlacitka menu v hlavicce*/
 .menu {
   display: flex;
-  list-style: none;  
+  list-style: none; 
 }
 
 .tlacitko-menu {
@@ -78,8 +76,7 @@ body {
   background-image: url(images/cupcake.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding: 80px 0;
 }
 
 .hero-obsah {
@@ -103,19 +100,23 @@ body {
 
 /*styly pro sekci vitejte v nasi cukrarne*/
 .vitejte-v-nasi-cukrarne {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding: 80px 0;
 }
 
 .obsah-vitejte {
   max-width: 1100px;
   display: flex;
-  margin: 0 auto;
-  
+  margin: 0 auto; 
 }
 
+.vitejte-levy-sloupec {
+  padding-right: 30px;
+}
+
+/*všechny nadpisy h2 budou na strance stejne, proto nemaji tridu*/
 h2 {
   font-size: 36px;
+  font-family: 'Playfair Display', serif;
   color: #3e606b;
   line-height: 1.25;
 }
@@ -143,8 +144,7 @@ h2 {
 
 /*styly pro sekci dnesni nabidka*/
 .dnesni-nabidka {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding: 80px 0;
   background-color: #f0f0f0;
 }
 
@@ -154,14 +154,12 @@ h2 {
 }
 
 .nadpis-dnesni-nabidka {
-  border: 4px dotted deeppink;
   margin-top: 0;
 }
 
 .flexbox-produkty {
   display: flex;
-  justify-content: space-between
-  
+  justify-content: space-between;  
 }
 
 .produkt {
@@ -170,7 +168,7 @@ h2 {
   border-radius: 5px;
   width: 23%;
   text-align: center;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3)
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .produkt h3 {
@@ -186,4 +184,31 @@ h2 {
 .dorty {
   width: 100%;
   border-radius: 5px 5px 0 0;
+}
+
+/*styly pro sekci nas pristup k peceni*/
+.nas-pristup-k-peceni {
+  padding: 80px 0;
+}
+
+.obsah-pristup-k-peceni {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.foto-peceni {
+  border-radius: 5px;
+}
+
+.pristup-k-peceni-pravy-sloupec {
+  padding-left: 30px;
+}
+
+/*styly pro paticku*/
+.paticka {
+  background-color: #303339;
+  color: #ffff;
+  text-align: center;
+  padding: 30px 0;
 }
